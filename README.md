@@ -50,7 +50,7 @@ tes_morts *edit_and_ret_pointer(tes_morts *miam) {
 ## Testing
 
 1. First you need to compile as a shared library
-2. Then you need you can execute the `test_cffi.py` located in the current folder.
+2. Then just execute the `test_cffi.py` located in the current folder.
 
 ```commandline
 gcc -I tes_morts.h -shared -o libmangetesmorts.so -fPIC tes_morts.c
